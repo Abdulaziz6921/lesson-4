@@ -1,21 +1,7 @@
 // import React, { useState } from 'react'
-import { GiMagnifyingGlass } from 'react-icons/gi'
+import { BiSearch } from 'react-icons/bi'
 
 function Navbar() {
-  // const [hover, setHover] = useState(false)
-
-  // let hover_li = document.querySelectorAll('#li_dropdown')
-  // console.log(hover_li)
-  // hover_li.forEach((el) =>
-  //   el.addEventListener('mouseenter', (e) => {
-  //     e.target.querySelector('#dropdown').style.display = 'flex'
-  //   }),
-  // )
-  // hover_li.forEach((el) =>
-  //   el.addEventListener('mouseleave', (e) => {
-  //     e.target.querySelector('#dropdown').style.display = 'none'
-  //   }),
-  // )
   let style = {
     size: 'sticky z-30 top-0 bg-[#231F20] w-full h-[70px]  text-white',
     inner_size:
@@ -119,7 +105,7 @@ function Navbar() {
           </select>
 
           <p className={style.glass}>
-            <GiMagnifyingGlass />
+            <BiSearch />
           </p>
         </div>
       </div>

@@ -13,6 +13,7 @@ function Section4() {
     box2: 'flex flex-wrap justify-between items-start w-[66%] h-full ',
     inner_box:
       'w-[239px] h-[200px] border-y-0 border-l-0  border-[2px] border-r-gray ',
+    inner_box2: 'w-[239px] h-[200px] border-0',
     inner_box_p: 'text-center text-[55px] font-[700]  tracking-[5px] ',
     container2:
       'mx-auto  mt-[80px] flex flex-col justify-center items-center w-[75%] h-[300px] border-x-0 border-b-0  border-[2px] border-t-gray',
@@ -52,7 +53,7 @@ function Section4() {
               Players for <br /> Epic Games
             </p>
           </div>
-          <div className={s.inner_box}>
+          <div className={s.inner_box2}>
             <p className={s.inner_box_p}>30% </p>
             <p className={s.box_p2}>
               Increase in <br /> Online Quotes for <br /> LV= General Insurance
@@ -69,7 +70,7 @@ function Section4() {
             <p className={s.inner_box_p}>400K+ </p>
             <p className={s.box_p2}>Active Users/Month for Liberty Global</p>
           </div>
-          <div className={s.inner_box}>
+          <div className={s.inner_box2}>
             <p className={s.inner_box_p}>75K </p>
             <p className={s.box_p2}>Bookings/Day for Vue</p>
           </div>
